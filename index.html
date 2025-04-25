@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Caffine Calculator</title>
+</head>
+
+<body>
+    <h1>Caffeine Calculator</h1>
+
+    <form id="caffeine-form">
+            <label for="time">Time of consumption:</label>
+            <input type="time" id="time">
+        <br>
+            <label for="drink">What did you drink:</label>
+            <select id="drink">
+                <option value="coffee">Coffee</option>
+                <option value="black-tea">Black Tea</option>
+                <option value="green-tea">Green Tea</option>
+            </select>
+        <br>
+            <input type="submit" value="Submit">
+    </form>
+
+    <p id="result"></p>
+</body>
